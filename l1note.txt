@@ -1,0 +1,21 @@
+https://tailwindcss.com 
+
+Integrate Methods
+1.Using CDN Link (content deliver network)
+2.Using Tailwind CLI
+3.Using PostCSS
+
+Terminal = VS Code
+NoteJs
+
+For Linux 
+sudo apt update
+sudo apt upgrade -y
+sudo apt install nodejs
+
+note - V
+
+
+
+npm install -D tailwindcss postcss autoprefixer
+
