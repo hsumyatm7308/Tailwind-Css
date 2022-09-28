@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>shadow</title>
+        <link rel="stylesheet" href="./tailwind.css">
+        <style>
+            .box{
+                height: 200px;
+                width: 200px;
+                background-color: #f4f4f4;
+                margin: 20px;
+                /* border: 1px solid red; */
+            }
+
+            .d-flex{
+                width: 600px;
+                display: flex;
+
+            }
+        </style>
+    </head>
+    <body>
+        
+        <h1>tailwind </h1>
+
+        <div class="d-flex">
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+
+        <div class="d-flex">
+            <div class="box shadow-sm border-8"></div>
+            <div class="box drop-shadow border-8"></div>
+        </div>
+
+        <div class="d-flex">
+            <div class="box shadow-md border-8"></div>
+            <div class="box drop-shadow-md border-8"></div>
+        </div>
+    </body>
+</html>
+<!-- shadow-none  -->
+<!-- shadow - sm / md / lg / xl / 2xl -->
+
+<!-- shadow-inner   box-shadow : inset hvbc  -->
+
+<!-- drop-shadow-none   filter:drop:shadow  -->
