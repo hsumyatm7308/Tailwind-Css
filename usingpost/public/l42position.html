@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Position</title>
+        <link rel="stylesheet" href="./tailwind.css">
+    </head>
+    <style>
+        .box{
+            width: 200px;
+            height: 600px;
+            background-color: silver;
+        }
+        .div1{
+            width: 100px;
+            height: 100px;
+            background-color: orange;
+            color: #fff;
+
+        }
+        .div2{
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            color: #fff;
+        }
+
+        
+    </style>
+    <body>
+        <div class="box">
+
+        <div class="div1 absolute z-10">
+
+        </div>
+        <div class="div2 absolute z-50"></div>
+    </div>
+
+    <div class="box relative">
+        <div class="div1">Div1</div>
+        <div aria-checked="div2 absolute inset-0">Div 2</div>
+    </div>
+
+    <div class="box ">
+        <div class="div1"></div>
+        <div class="div2 absolute inset-x-0">Div2</div>
+    </div>
+<div class="box relative">
+    <div class="div1"></div>
+    <div class="div2 absolute right-0"></div>
+
+
+</div>
+
+<div class="box relative">
+    <div class="div1"></div>
+    <div class="div2 absolute top-5"></div>
+
+</div>
+    </body>
+</html>
+
+<!-- relative
+static
+absolute
+fixed
+sticky -->
+
+z-0
+z-10 
+z-20 
+z-30 
+z-40 
+z-50 
+z-auto
+
+inset-0  left-0;top-0;right-0;bottom-o;
+inset-x-0  left-0;right-0;
+inset-y-0  top-o;bottom-0;
+
+
+left-0
+top-0 
+right-0 
+bottom-0 
+
+inset-px 
+inset-x-px 
+inset-y-px  
+
+left-px 
+top-px 
+right-px 
+bottom-px 
+(1px)
+
+inset-0.5 
+inset-x-0.5 
+inset-y-0.5 
+
+left-0,5 
+left-0.5 
+right-0.5 
+bottom-0.5 
+
+1 1.5 2 2.5 3 3.5 
+456789 11 12 
+14 16 18 20 
+24 28 32 36 40 44 48 52 56 60 64 
+72 80 
+96

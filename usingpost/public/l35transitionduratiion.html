@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Transition Duration</title>
+        <link rel="stylesheet" href="./tailwind.css">
+        <style>
+            .box{
+                width: 700px;
+                height: 200px;
+                background-color: steelblue;
+
+            }
+
+            img:hover{
+                transform: translate(500%);
+            }
+
+            img{
+                height: 100%;
+            }
+        </style>
+    </head>
+    <body>
+
+         
+        <h1>This is Tailwind CSS</h1>
+
+        <div class="box">
+            <img src="./img/cat.jpg" class="transition duration-1000 ease-linear" alt="">
+        </div>
+        
+    </body>
+</html>
+
+
+<!-- 1s = 1000ms -->
+
+<!-- 300ms  duration:300 -->
+<!-- 500ms duration:500 -->
+<!-- 700ms duration:700 -->
+<!-- Transition-duration : 1000ms  -->
+
+<!-- delay-75 
+delay-100 
+delay-200 
+delay-300 
+delay-500  -->
+
+ease-linear       transition:timing-function:linear;
+ease-in 
+ease-out 
+ease-inout 
