@@ -1,156 +1,177 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Colors </title>
+        <title>Color</title>
         <link href="./tailwind.css" rel="stylesheet" type="text/css" />
 
         <style type="text/css">
-            .box{
-                background-color: steelblue;
+          .div1{
+            width:200px;
+            height:200px;
+            background-color:silver;
+            color:blue;
+          }
+
+          input:invalid{
+            animation:shake 0.3s;
+          }
+
+          @keyframes shake{
+            25%{
+              transform:translateX(4px);
             }
-           
-            .div1{
-                width: 200px;
-                height: 200px;
-                background-color: silver;
-                color: blue;
+            50%{
+              transform:translateX(-4px);
             }
+            75%{
+              transform:translateX(4px);
+            }
+          }
+
         </style>
     </head>
     <body>
 
-        <h1>This is Tailwind CSS</h1>
+       <h1 class="text-3xl text-center text-violet-800 font-bold underline underline-offset-4 ">This is tailwind css</h1>
+
+      <div class="box border-double border-4 border-black bg-sky-800 mb-4">
+        <p class="text-black">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro at accusamus accusantium tenetur in cumque distinctio fugit iusto explicabo aperiam. Necessitatibus aspernatur unde ipsa ea, ipsam nostrum laborum quas voluptate?</p>
+      </div>
+
+      <div class="box border-double border-4 border-black bg-sky-800 mb-4">
+        <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicin</p>
+      </div>
+
+      <div class="box border-double border-4 border-black bg-sky-800">
+        <p class="text-slate-100">Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+      </div>
+       
+        <p class="text-slate-200 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+
+        <p class="text-red-100 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+        <p class="text-red-200 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+        <p class="text-red-300 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+        <p class="text-red-50 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+        <p class="text-red-400 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+        <p class="text-red-500 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+        <p class="text-red-600 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+        <p class="text-red-700 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+        <p class="text-red-800 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+        <p class="text-red-900 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+
+        <p class="text-orange-100 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+        <p class="text-orange-200 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+        <p class="text-orange-300 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+        <p class="text-orange-50 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+        <p class="text-orange-400 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+        <p class="text-orange-500 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+        <p class="text-orange-600 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+        <p class="text-orange-700 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+        <p class="text-orange-800 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+        <p class="text-orange-900 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+
+
+        <p class="text-green-100 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+        <p class="text-emerald-200 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+        <p class="text-teal-300 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+        <p class="text-cyan-50 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+        <p class="text-sky-400 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+        <p class="text-blue-500 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+        <p class="text-indigo-600 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+        <p class="text-violet-700 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+        <p class="text-purple-800 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+        <p class="text-fuchsia-900 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+
+        <p class="text-pink-500 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+        <p class="text-rose-500 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+
+        <br/><br/>
+
+        <div class="div1">
+          <h1 class="text-black text-center">Save Myanmar</h1>
+        </div>
+        <br/><br/>
+
+        <div class="div1">
+          <h1 class="text-white text-center">Save Myanmar</h1>
+        </div>
+        <br/><br/>
+
+        <div class="div1">
+          <h1 class="text-inherit text-inherit">Save Myanmar</h1>
+        </div>
+        <br/><br/>
+
+        <div class="div1">
+          <h1 class="text-current text-center">Save Myanmar</h1>
+        </div>
+        <br/><br/>
+
+        <div class="div1">
+          <h1 class="text-black text-transparent">Save Myanmar</h1>
+        </div>
+        <br/><br/>
+
+        <input type="text" pattern="[a-z]*" placeholder="What's your name ?"
+
+
+
+
+
+
         
-        <div class="box">
-            <p class="text-black">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        </div>
 
-        <hr/>
+        
+    
 
-        <div class="box">
-            <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        </div>
+       
 
-        <hr/>
-
-        <p class="text-red-50">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <p class="text-red-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <p class="text-red-200">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <p class="text-red-300">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <p class="text-red-400">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <p class="text-red-500">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <p class="text-red-600">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <p class="text-red-700">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <p class="text-red-800">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <p class="text-red-900">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-
-        <hr/>
-
-        <p class="text-orange-50">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <p class="text-orange-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <p class="text-orange-200">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <p class="text-orange-300">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <p class="text-orange-400">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <p class="text-orange-500">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <p class="text-orange-600">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <p class="text-orange-700">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <p class="text-orange-800">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <p class="text-orange-900">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-
-        <hr/>
-
-        <p class="text-green-50">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <p class="text-green-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <p class="text-green-200">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <p class="text-green-300">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <p class="text-green-400">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <p class="text-green-500">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <p class="text-green-600">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <p class="text-green-700">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <p class="text-green-800">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <p class="text-green-900">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-
-        <hr/>
-
-        <br/><br/>
-
-        <div class="div1">
-            <h1 class="text-black"> Save Myanmar </h1>
-        </div>
-
-        <br/><br/>
-
-        <div class="div1">
-            <h1 class="text-white"> Save Myanmar </h1>
-        </div>
-
-        <br/><br/>
-
-        <div class="div1">
-            <h1 class="text-inherit"> Save Myanmar </h1>
-        </div>
-
-        <br/><br/>
-
-        <div class="div1">
-            <h1 class="text-current"> Save Myanmar </h1>
-        </div>
-
-        <br/><br/>
-
-        <div class="div1">
-            <h1 class="text-transparent"> Save Myanmar </h1>
-        </div>
-
-        <br/><br/>
     </body>
 </html>
 
+<!-- All colors = 21 color tailwind css
+Basic colors = 5; / types = 10 by each colors;
 
-<!-- Basic colors 5 / All colors 22 / types 10 by each colors
+slate-50 100 to 900
+gray-50 100 to 900
+zinc-50 100 to 900
+neutral-50 100 to 900
+stone-50 100 to 900
+---------------------------------------
 
-slate
-gray 50 100 , 200 , 300 , 400 , 500 , 600 , 700 , 800 , 900
-zinc
-neutral
-stone
-
-______________________________
-
-red 50 100 to 900
-orange
-amber
-yellow
-lime
-
-______________________________
-
-green 50 100 to 900
-emerald
-teal
-cyan
-sky
-
-______________________________
-
-blue 50 100 to 900
-indigo
-violet
-purple
-fuchsia
+red-50 100 to 900
+orage-50 100 to 900
+amber-50 100 to 900
+yellow-50 100 to 900
+lime-50 100 to 900
 
 
-______________________________
+green-50 100 to 900  
+emerald-50 100 to 900 
+teal-50 100 to 900
+cyan-50 100 to 900
+sky-50 100 to 900
 
 
-pink 50 100 to 900
-rose -->
+blue-50 100 to 900 
+indigo-50 100 to 900
+violet-50 100 to 900
+purple-50 100 to 900
+fuchsia-50 100 to 900
 
-<!-- 
-        text-black              color:rgba(0,0,0);
-        text-white              color:rgb(255,255,255);
-        text-inherit            color:inherit;
-        text-current            color:currentColor;
-        text-transparent        color:transparent;
- -->
+
+pink-50 100 to 900 
+rose-50 100 to 900 
+
+text-black 
+text-white
+text-inherit    color:inherit;
+text-current     color:currentcolor;
+text-transparent color:transparent;
+-->
+
+
+
+
+
 
