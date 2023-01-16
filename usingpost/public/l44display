@@ -33,6 +33,8 @@
     </head>
     <body>
         
+
+        <!-- <h1>Justify-conternt</h1> -->
   <h1 class="text-center text-3xl font-bold text-emerald-700 uppercase tracking-widest">This is a tailwind css using PostCSS</h1>
 
   <div class="box mx-auto my-10 flex">
@@ -46,6 +48,7 @@
   </div>
   <br/>
 
+  <h1>Align Item Centers</h1>
   <div class="box mx-auto my-10 flex justify-center">
     <div class="div1">div 1</div>
   </div>
@@ -123,11 +126,30 @@ justify-around  justify-content:space-around;
 justify-evenly  justify-content:space-evenly; 
 -->
 
+
+justify-item:start;     justify-items-start   ae element paw mar pal shi nay tar
+justigy-items:center;   justify-items-center 
+justify-items:end;     justify-items-end
+justify-items:stretch; justify-item-stretch    box a kyi kyi ta ku htal mar  swal sant p paw tar
+
+
+justify-self:auto ; 
+justify-self-start;
+justify-self-end;
+justify-self-stretch;
+
+
+
 <!-- 
 items-center  align-item:center 
 items-start   align-item:start;
 items-end   align-items:end; 
 -->
 
+
+align-self:auto ;
+self:start ;
+self-baseline
+etc.....
 
  
