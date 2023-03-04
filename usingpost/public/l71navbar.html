@@ -17,12 +17,12 @@
                 </span>
 
                 <span class="text-2xl coursor block mx-4">
-                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-bars togglemenu" onclick="togglemenu(this)"></i>
                 </span>
 
             </div>
 
-            <ul class="md:w-auto md:flex md:items-center md:static md:pl-0 md:py-0 md:opacity-100 w-full bg-white absolute left-0 pl-5 py-5 opacity-0">
+            <ul class="md:w-auto md:flex md:items-center md:static md:pl-0 md:py-0 md:opacity-100 w-full bg-white absolute left-0 pl-5 py-5 opacity-0 transition-all duration-500">
                 <li class="md:my-0 mx-5 my-6"><a href="javascript:void(0)" class="text-lg hover:text-violet-700 transition-all duration-500">HOME</a></li>
                 <li class="md:my-0 mx-5 my-6"><a href="javascript:void(0)" class="text-lg hover:text-violet-700 transition-all duration-500">NEWS</a></li>
                 <li class="md:my-0 mx-5 my-6"><a href="javascript:void(0)" class="text-lg hover:text-violet-700 transition-all duration-500">PAGES</a></li>
@@ -34,5 +34,20 @@
         </nav>
         
 
+        <script type="text/javascript">
+            function togglemenu(ele){
+                //   console.log(ele.className)
+
+                  const getul = document.querySelector('ul');
+
+                  if(ele.classList.contains('togglemenu')){
+                     ele.classList.remove('togglemenu');
+                     getul.classList.add('opacity-100')
+                  }else{
+                     ele.classList.add('togglemenu')
+                     getul.classList.remove('opacity-0')
+                  }
+            }
+        </script>
     </body>
 </html>
