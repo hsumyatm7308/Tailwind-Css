@@ -40,14 +40,20 @@
 
                   const getul = document.querySelector('ul');
 
-                  if(ele.classList.contains('togglemenu')){
-                     ele.classList.remove('togglemenu');
-                     getul.classList.add('opacity-100')
-                  }else{
-                     ele.classList.add('togglemenu')
-                     getul.classList.remove('opacity-100')
-                  }
+                //   if(ele.classList.contains('togglemenu')){
+                //      ele.classList.remove('togglemenu');
+                //      getul.classList.add('opacity-100')
+                //   }else{
+                //      ele.classList.add('togglemenu')
+                //      getul.classList.remove('opacity-100')
+                //   }
+
+
+                // Method 2 
+                ele.classList.contains('togglemenu') ? (ele.classList.remove('togglemenu'),getul.classList.add('opacity-100')): (ele.classList.add('togglemenu'),getul.classList.remove('opacity-100'))
             }
+
+
         </script>
     </body>
 </html>
