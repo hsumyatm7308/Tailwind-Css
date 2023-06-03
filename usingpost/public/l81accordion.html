@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Accordion</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="./tailwind.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+
+    </style>
+</head>
+
+<body class="bg-stone-900">
+
+    <div class="h-screen flex justify-center items-center">
+        <div class="w-[700px] bg-[#f4f4f4] rounded-xl overflow-hidden">
+
+            <details class="group" open>
+                <summary class="bg-slate-200 p-5 flex items-center justify-between cursor-pointer">
+                    <h2 class="text-lg font-medium">Are you ready to user tailwind CSS?</h2>
+                    <span class="w-5 h-5 text-sm relative">
+                        <i class="fas fa-plus absolute opacity-100 group-open:opacity-0"></i>
+                        <i class="fas fa-minus absolute opacity-0 group-open:opacity-100"></i>
+                    </span>
+                </summary>
+
+                <p class="text-gray-700 p-5 mt-4">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum
+                    has been
+                    the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                    of type and scrambled it to make a type specimen book.</p>
+
+            </details>
+
+            <details class="group">
+                <summary class="bg-slate-200 p-5 flex items-center justify-between cursor-pointer">
+                    <h2 class="text-lg font-medium">Do you know how tailwind CSS work?</h2>
+                    <span class="w-5 h-5 text-sm relative">
+                        <i class="fas fa-plus absolute opacity-100 group-open:opacity-0"></i>
+                        <i class="fas fa-minus absolute opacity-0 group-open:opacity-100"></i>
+                    </span>
+                </summary>
+
+                <div>
+                    <p class="text-gray-700 p-5 mt-4">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum
+                        has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book.</p>
+                    <p class="text-gray-700 p-5 mt-4">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum
+                        has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book.</p>
+
+                </div>
+            </details>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
