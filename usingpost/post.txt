@@ -80,3 +80,18 @@ npx tailwindcss -i./src/input.css-o./dist/output.css--watch
 -o = open
 
 =go to terminal and enter "npm run build"
+
+
+
+2. Using Tailwind CLI (Command Line Interface )
+= open folder "usingcli"
+= opten terminal  (npm = NOte Package Manager)
+npm install -D tailwindcss
+
+=>Create tailwind.configt file (npx = Node Package)
+npx tailwindcss init
+
+
+=>Configure 
+=go to tailwind.config.js
+=and write down in content:["./public/**/*.html"]
