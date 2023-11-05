@@ -1,3 +1,46 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+       /* for html tag  */
+       h1{
+         @apply text-4xl;
+       }
+
+       h2{
+        @apply text-2xl;
+      }
+
+      a{
+        @apply text-blue-600 underline;
+      }
+}
+
+@layer components{
+       /* custom css  */
+
+       .register-btn{
+        @apply bg-indigo-500 text-white px-5 py-sm;
+       }
+
+       .cancel-btn{
+        @apply bg-gray-500 text-white px-5 py-sm;
+       }
+
+       .delete-btn{
+        @apply bg-red-500 text-white px-5 py-sm;
+       }
+    
+}
+
+@layer utilities{
+      /* default css  */
+      .bg-gray-200{
+        background-color: silver;
+      }
+
+      .text-green-500{
+        color:#fff;
+      }
+}
