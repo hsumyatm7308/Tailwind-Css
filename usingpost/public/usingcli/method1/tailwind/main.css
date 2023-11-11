@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+    h1{
+        @apply text-2xl;
+    }
+
+    h2{
+        @apply text-xl;
+    }
+    h3{
+        @apply text-base;
+    }
+}
+
+@layer components{
+    .login-btn{
+        @apply bg-indigo-500 text-white border-2 rounded-lg shadow-md  hover:bg-primary hover:text-info px-5
+    }
+}
